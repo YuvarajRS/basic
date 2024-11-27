@@ -1,6 +1,6 @@
 ---
 - name: Print Hello World
-  hosts: routers
+  hosts: localhost
   tasks:
     - name: Print "Hello, World!" to the output
       debug:
